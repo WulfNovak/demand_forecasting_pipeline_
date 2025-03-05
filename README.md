@@ -44,4 +44,4 @@ Citation:
 ___
 
 ## Closing Thoughts
-There many opportunities to further generalize and automate this demand forecasting setup. Additionally, other model types and optimizations can easily be integrated, then compared with the existing lightgbm forecasting models through MLflow. There is great potential to further productionalize ML models. 
+There many opportunities to further generalize and automate this demand forecasting setup. Additionally, other model types and optimizations can easily be integrated, then compared with the existing lightgbm forecasting models through MLflow. There is great potential for further productionalizing ML models. 
