@@ -1,18 +1,18 @@
 # Demand Forecasting MLOps
 
 ### Description
-With energy and weather data across 6 european countries (Austria, Netherlands, Luxembourg, Hungary, Belgium, Germany), the following predicts energy usage 7 days into the future. -- conducts some EDA, engineers features, unites the data, then performs automated model optimization, logging training and result metrics per country with MLflow.
+With energy and weather data across 6 european countries (Austria, Netherlands, Luxembourg, Hungary, Belgium, Germany), the following predicts energy usage 7 days into the future. 
 
 ### Script order
-1. energy_eda.ipynb
+1. energy_eda.ipynb 
 2. weather_prep.ipynb
 3. feature_prep.ipynb
 4. lgbm_forecast.ipynb
 
-Lightgbm was selected as the first model due to there being variable importance plots, assisting variable selection. Looking forward to integrating other model types once a set of predictive features has been refined.  
+Lightgbm selected as first model due to there being variable importance plots, assisting variable selection. Will add other model types as experiments in the future!
 
 ## MLflow
-The result of the above scripts are stored on an mlflow server. This server containers the parameters of the best model per country during training. Currently, results metrics, variable importance plots, and forecasting visualizations are logged during the automated training and testing.
+Results of the forecast are stored on mlflow server. This server contains parameters of the best scoring model per country. Currently, results metrics, variable importance plots, and forecasting visualizations are logged during the training and testing.
 
 Here are some example screenshots of this ongoing experiment:
 ![example_param_chart](https://github.com/user-attachments/assets/a97fbac2-62d6-4699-a198-53df8727a484)
