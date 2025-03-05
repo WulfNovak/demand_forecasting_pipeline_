@@ -1,4 +1,4 @@
-# Automated Demand Forecasting Model Optimization and Logging
+# Demand Forecasting MLOps
 
 ### Description
 With energy and weather data across 6 european countries (Austria, Netherlands, Luxembourg, Hungary, Belgium, Germany), the following predicts energy usage 7 days into the future. -- conducts some EDA, engineers features, unites the data, then performs automated model optimization, logging training and result metrics per country with MLflow.
