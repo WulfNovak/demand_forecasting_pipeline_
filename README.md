@@ -9,7 +9,7 @@ With energy and weather data across 6 european countries (Austria, Netherlands, 
 3. feature_prep.ipynb
 4. lgbm_forecast.ipynb
 
-Lightgbm selected as first model due to there being variable importance plots, assisting variable selection. Will add other model types as experiments in the future!
+Lightgbm selected as first model due to there being variable importance plots, assisting variable selection. 
 
 ## MLflow
 Results of the forecast are stored on mlflow server. This server contains parameters of the best scoring model per country. Currently, results metrics, variable importance plots, and forecasting visualizations are logged during the training and testing.
