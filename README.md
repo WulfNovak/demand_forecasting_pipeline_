@@ -31,9 +31,6 @@ https://github.com/Open-Power-System-Data/time_series/blob/885c0946fe57d1a2f44f7
 
 - Open Power System Data. 2020. Data Package Time series. Version 2020-10-06. https://doi.org/10.25832/time_series/2020-10-06. (Primary data from various sources, for a complete list see URL).
 
-Details on how the Data was processed:
-https://github.com/Open-Power-System-Data/time_series/blob/885c0946fe57d1a2f44f7bc57306e87811e4e2e8//processing.ipynb   
-
 ___
 
 ### Weather Data 
