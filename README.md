@@ -43,5 +43,5 @@ Citation:
 - Open Power System Data. 2020. Data Package Weather Data. Version 2020-09-16. https://doi.org/10.25832/weather_data/2020-09-16. (Primary data from various sources, for a complete list see URL).
 ___
 
-## Closing thoughts
+## Closing Thoughts
 There many opportunities to further generalize and automate this demand forecasting setup. Additionally, other model types and optimizations can easily be integrated, then compared with the existing lightgbm forecasting models through MLflow. There is great potential to further productionalize ML models. 
