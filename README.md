@@ -1,7 +1,7 @@
 # Demand Forecasting MLOps
 
 ### Description
-With energy and weather data across 6 european countries (Austria, Netherlands, Luxembourg, Hungary, Belgium, Germany), the following predicts energy usage 7 days into the future. 
+With energy and weather data across 6 european countries (Austria, Netherlands, Luxembourg, Hungary, Belgium, Germany), the following predicts energy usage with a 7-day forecast horizon. 
 
 ### Script order
 1. energy_eda.ipynb 
@@ -14,9 +14,9 @@ Lightgbm selected as first model due to there being variable importance plots, a
 ## MLflow
 Results of the forecast are stored on mlflow server. This server contains parameters of the best scoring model per country. Currently, results metrics, variable importance plots, and forecasting visualizations are logged during the training and testing.
 
-Here are some example screenshots of this ongoing experiment:
-![example_param_chart](https://github.com/user-attachments/assets/a97fbac2-62d6-4699-a198-53df8727a484)
-![example_result_metrics](https://github.com/user-attachments/assets/ea0059ec-54f4-49a0-9960-d5eed933f14d)
+Example screenshots of ongoing experiment:
+![image](https://github.com/user-attachments/assets/e010afa6-b44d-4e8b-985e-969e320e9f18)
+![image](https://github.com/user-attachments/assets/2c416a9d-410e-42c3-a53a-1520099daac6)
 ![image](https://github.com/user-attachments/assets/13a39f8d-7093-4fa3-bba3-ae6630d811d7)
 
 ## Data Sources
