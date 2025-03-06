@@ -12,7 +12,7 @@ With energy and weather data across 6 european countries (Austria, Netherlands, 
 Lightgbm selected as first model due to there being variable importance plots, assisting variable selection. 
 
 ## MLflow
-Results of the forecast are stored on mlflow server. This server contains parameters of the best scoring model per country. Currently, results metrics, variable importance plots, and forecasting visualizations are logged during the training and testing.
+Forecasting results are stored on a mlflow server. Currently, results metrics, variable importance plots, and forecasting visualizations are logged during the training and testing.
 
 Example screenshots of ongoing experiment:
 ![image](https://github.com/user-attachments/assets/e010afa6-b44d-4e8b-985e-969e320e9f18)
