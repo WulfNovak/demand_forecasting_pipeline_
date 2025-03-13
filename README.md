@@ -1,7 +1,7 @@
 # Demand Forecasting MLOps
 
 ### Description
-With energy and weather data, predicted energy usage with a 7-day forecast horizon across 6 european countries (Austria, Netherlands, Luxembourg, Hungary, Belgium, Germany). 
+With energy and weather data, automated energy usage demand with a 7-day forecast horizon across 6 european countries (Austria, Netherlands, Luxembourg, Hungary, Belgium, Germany). 
 
 ### Script order
 1. energy_eda.ipynb 
