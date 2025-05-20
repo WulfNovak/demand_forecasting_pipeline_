@@ -15,9 +15,10 @@ Lightgbm selected as first model due to there being variable importance plots, a
 Forecasting results are stored on a mlflow server. Currently, results metrics, variable importance plots, and forecasting visualizations are logged during the training and testing.
 
 Example screenshots:
-![image](https://github.com/user-attachments/assets/f478347f-6476-4db2-b3b9-8a0b01707f52)
-![image](https://github.com/user-attachments/assets/814b338d-54f8-4d27-b455-0ec1c34555d1)
-![image](https://github.com/user-attachments/assets/13a39f8d-7093-4fa3-bba3-ae6630d811d7)
+![image](https://github.com/user-attachments/assets/9832cf9e-d8f9-4e83-afd0-d2993918ef8a)
+![image](https://github.com/user-attachments/assets/b08afb02-1116-43b1-aa6a-dbab6dac3ae4)
+![image](https://github.com/user-attachments/assets/e43b7c14-940c-4f2d-b919-2a4fcfa1b4a0)
+
 
 ## Data Sources
 ### Energy Data 
