@@ -12,9 +12,13 @@ With energy and weather data, automated energy usage demand with a 7-day forecas
 ## MLflow
 Forecasting results are stored on a mlflow server. Currently, results metrics, variable importance plots, and forecasting visualizations are logged during the training and testing.
 
-Example screenshots:
+Selected metrics for a set of trained models:
 ![image](https://github.com/user-attachments/assets/9832cf9e-d8f9-4e83-afd0-d2993918ef8a)
+
+Hyperparamters per model:
 ![image](https://github.com/user-attachments/assets/b08afb02-1116-43b1-aa6a-dbab6dac3ae4)
+
+Plot of prediction for Austria:
 ![image](https://github.com/user-attachments/assets/e43b7c14-940c-4f2d-b919-2a4fcfa1b4a0)
 
 
