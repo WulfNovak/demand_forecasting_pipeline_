@@ -20,7 +20,7 @@ Selected metrics for a set of trained models:
 Hyperparamters per model:
 ![image](https://github.com/user-attachments/assets/b08afb02-1116-43b1-aa6a-dbab6dac3ae4)
 
-Plot of predicted vs. actual values for Austria:
+Plot of predicted vs. actual values for Germany:
 ![image](https://github.com/user-attachments/assets/e43b7c14-940c-4f2d-b919-2a4fcfa1b4a0)
 
 
