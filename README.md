@@ -1,7 +1,7 @@
 # Demand Forecasting MLOps
 
 ### Description
-With energy and weather data, automated energy usage demand with a 7-day forecast horizon across 6 european countries (Austria, Netherlands, Luxembourg, Hungary, Belgium, Germany). 
+The following is a foundation to a general demand forecasting pipeline where models, metrics, and key information are tracked with MLflow. With electricity and weather data, timeseries features and optimal parameters are selected to forecast a 7-day horizon across n=6 european countries (Austria, Netherlands, Luxembourg, Hungary, Belgium, Germany). 
 
 ### Script order
 1. energy_eda.ipynb 
@@ -10,7 +10,7 @@ With energy and weather data, automated energy usage demand with a 7-day forecas
 4. lgbm_forecast.ipynb
 
 ## MLflow
-Forecasting results are stored on a mlflow server. Currently, results metrics, variable importance plots, and forecasting visualizations are logged during the training and testing.
+Forecasting results are stored on a mlflow server. Currently, result metrics, variable importance plots, and forecasting visualizations are logged during the training and testing.
 
 Selected metrics for a set of trained models:
 ![image](https://github.com/user-attachments/assets/9832cf9e-d8f9-4e83-afd0-d2993918ef8a)
@@ -18,7 +18,7 @@ Selected metrics for a set of trained models:
 Hyperparamters per model:
 ![image](https://github.com/user-attachments/assets/b08afb02-1116-43b1-aa6a-dbab6dac3ae4)
 
-Plot of prediction for Austria:
+Plot of predicted vs. actual values for Austria:
 ![image](https://github.com/user-attachments/assets/e43b7c14-940c-4f2d-b919-2a4fcfa1b4a0)
 
 
