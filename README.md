@@ -9,8 +9,6 @@ With energy and weather data, automated energy usage demand with a 7-day forecas
 3. feature_prep.ipynb
 4. lgbm_forecast.ipynb
 
-Lightgbm selected as first model due to there being variable importance plots, assisting variable selection. 
-
 ## MLflow
 Forecasting results are stored on a mlflow server. Currently, results metrics, variable importance plots, and forecasting visualizations are logged during the training and testing.
 
