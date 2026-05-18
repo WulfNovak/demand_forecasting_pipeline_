@@ -1,7 +1,7 @@
 # Demand Forecasting MLOps
 
 ### Description
-The following is a foundation to a general demand forecasting pipeline where models, metrics, and key information are tracked with MLflow. Given electricity and weather data, timeseries features and optimal parameters are automatically selected to forecast a 7-day horizon across n=6 european countries (Austria, Netherlands, Luxembourg, Hungary, Belgium, Germany). 
+The following is the first iteration of a foundation to a general demand forecasting pipeline where models, metrics, and key information are tracked with MLflow. Given electricity and weather data, timeseries features and optimal parameters are automatically selected to forecast a 7-day horizon across n=6 european countries (Austria, Netherlands, Luxembourg, Hungary, Belgium, Germany). 
 
 Great care is taken to prevent data leakage, ensuring forecasts are realistic on real-time data where future values are unknown.
 
