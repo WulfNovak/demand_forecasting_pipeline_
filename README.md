@@ -11,7 +11,7 @@ Informal Data Prep:
 2. weather_prep.ipynb
 3. feature_prep.ipynb
 
-For forecasting:   
+For forecasting: (finalized April 2025, formerly hidden)
 1. feature_engineering_2.py   
 2. lightgbm_forecasting_pipeline.py      
 
