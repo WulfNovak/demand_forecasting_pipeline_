@@ -1,15 +1,19 @@
 # Demand Forecasting MLOps
 
 ### Description
-The following is a (legacy) iteration of a foundation to a general demand forecasting pipeline where models, metrics, and key information are tracked with MLflow. Given electricity and weather data, timeseries features and optimal parameters are automatically selected to forecast a 7-day horizon across n=6 european countries (Austria, Netherlands, Luxembourg, Hungary, Belgium, Germany). 
+The following is a (legacy) iteration, giving a foundation to a general demand forecasting pipeline where models, metrics, and key information are tracked with MLflow. Given electricity and weather data, timeseries features and optimal parameters are automatically selected to forecast a 7-day horizon across n=6 european countries (Austria, Netherlands, Luxembourg, Hungary, Belgium, Germany). 
 
 Great care is taken to prevent data leakage, ensuring forecasts are realistic on real-time data where future values are unknown.
 
 ### Script order
+Informal Data Prep:
 1. energy_eda.ipynb 
 2. weather_prep.ipynb
 3. feature_prep.ipynb
-4. lgbm_forecast.ipynb
+
+For forecasting:   
+1. feature_engineering_2.py   
+2. lightgbm_forecasting_pipeline.py      
 
 ## MLflow
 Forecasting results are stored on a mlflow server. Currently, result metrics, variable importance plots, and forecasting visualizations are logged during the training and testing.
